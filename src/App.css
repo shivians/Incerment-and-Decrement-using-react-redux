@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+ 
+  width: 500px;
+  height: 400px;
+  margin: 100px 200px 0 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:rgb(63, 58, 58);
+  
+}
+.quantity{
+  background-color: rgb(4, 245, 253);
+  border-radius: 10px;
+  
+  box-shadow: 4px 4px 0px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 4px 0px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 0px -2px rgba(0,0,0,0.75);
+
+}
+span{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 2rem;
+ font-weight: bold;
+ 
+ 
+ 
+}
+input{
+  width: 50px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 4px 3px 7px -2px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 4px 3px 7px -2px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 4px 3px 7px -2px rgba(0,0,0,0.75) inset;
+  
+}
+input[type=text]{
+  font-size: 20px;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  font-weight: bold;
+}
+a:active{
+  background-color: rgb(36, 31, 31);
+  
+  transition: 0.5ms;
+  columns: white;
+  
+}
+a:hover{
+  
+  color: rgb(250, 8, 8);
+  
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
